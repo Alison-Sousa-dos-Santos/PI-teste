@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#img-logo{
+    width: 125px;
+    margin: 5px;
+}
+
+#title{
+    background:linear-gradient(90deg,rgb(246, 246, 246), rgb(28, 234, 213));
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+    padding: 3px 12px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: none;
+    background-color:rgb(141, 200, 213);
+    margin: 7px;
+}
+
+button:hover{
+    color:white
+}
+main{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    font-size:22px ;
+    line-height: 20px;
+    max-width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 35px;
+    width: 50%;
+    background-color:rgb(141, 200, 213) ;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+   cursor: pointer;
+}
+
+
+input{
+    margin-top: 15px;
+    border-radius: 7px;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.aprendizado{
+    width: 580px;
+}
